@@ -171,24 +171,24 @@
             <div class="container form">
               <div class="row"> 
                 <div class="col-md-8 offset-md-2">
-                  <form class="row g-3" method="POST" name="contact" data-netlify="true">
+                  <form id="contactForm" class="row g-3" method="POST" name="contact" data-netlify="true" >
                     <div class="col-12">
-                      <label for="fullName" class="form-label">Full Name</label>
-                      <input type="text" class="form-control" id="fullName" placeholder="Enter Full Name">
+                      <label for="name" class="form-label">Full Name</label>
+                      <input type="text" name="name"  class="form-control" id="name" placeholder="Enter Full Name">
                     </div>
                     <div class="col-md-12">
                       <label for="email" class="form-label">Email</label>
-                      <input type="email" class="form-control" id="email" placeholder="Enter Your Email">
+                      <input type="email"  name="email" class="form-control" id="email" placeholder="Enter Your Email">
                     </div>
                    
                     <div class="col-12">
-                      <label for="Telephone" class="form-label">Telephone</label>
-                      <input type="number" class="form-control" id="telephone" placeholder="Enter Telephone Number">
+                      <label for="phone" class="form-label">Telephone</label>
+                      <input type="number" name="phone" class="form-control" id="phone" placeholder="Enter Telephone Number">
                     </div>
                     
                     <div class="mb-3">
-                      <label for="comments" class="form-label">Message</label>
-                      <textarea class="form-control" id="comments" rows="3" colspan="9" placeholder="Please send your comments and make your orders"></textarea>
+                      <label for="message" class="form-label">Message</label>
+                      <textarea class="form-control" name="message" id="message" rows="3" colspan="9" placeholder="Please send your comments and make your orders"></textarea>
                     </div>
                    
                     
@@ -356,6 +356,11 @@
        document.documentElement.scrollTop = 0;
      }
      </script>
+    
+     
+     <script>"https://www.gstatic.com/firebasejs/9.4.1/firebase-app.js";
+    </script>
+    <script src="main-contact.js"></script>
   </div>
   <!-- Copyright -->
 
