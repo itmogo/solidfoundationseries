@@ -39,7 +39,9 @@
     //   console.log(message);
     
       //save message
-     saveMessage(name, email, phone, message);      
+     saveMessage(name, email, phone, message);  
+     
+     //show alert
   }
 
 //   //function to get form values
