@@ -263,7 +263,11 @@ ul ul{
   ul .submenu{
     margin-top: 10px;
   }
-
+    /* frequently asked questions*/
+    .answer{
+      text-decoration: none;
+      font-size: 20px;
+    }
   /*JHS STYLE SHEETS*/
   .jhs_body{
     background:rgb(78, 77, 78);
