@@ -249,20 +249,19 @@ ul ul{
   margin-bottom: 5px;
   padding-right: 20px,
    ;
-  /* box-shadow: -5px -5px 10px #0d0d0d inset,
-               5px 5px 10px #333 inset ; */
+ 
   transform: scaleY(0);
   transform-origin: 5;
   transition: .6s ease;       
               } 
   
   .dropshs{
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 
-  ul .submenu{
-    margin-top: 10px;
-  }
+  /* ul .submenu{
+    margin-top: 1px;
+  } */
     /* frequently asked questions*/
     .answer{
       text-decoration: none;
