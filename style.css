@@ -272,4 +272,6 @@ ul ul{
     background:rgb(78, 77, 78);
   }
 
-  
+  .label{
+    font-size: small;
+  }
