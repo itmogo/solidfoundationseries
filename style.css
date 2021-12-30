@@ -279,3 +279,7 @@ ul ul{
   .pcolor{
     color: gray;
   }
+
+  .carousel-inner{
+    max-height: 59vh;
+  }
