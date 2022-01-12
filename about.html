@@ -50,14 +50,61 @@
             <li class="nav-item">
               <a class="nav-link"  href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
+            <li class="nav-item dropdown ">
+              <a class="nav-link" href="projects.html" data-bs-toggle="dropdown" id="navbarDropdown" role="button" aria-expanded="true">Projects</a>
+              <ul class="dropdown-menu  dropdown-menu-dark">
+                <li><a class="dropdown-item" href="index-shs.html">SHS &raquo;</a>
+                  <ul class="submenu dropdown-menu  dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">SHS-1 &raquo;</a>
+                      <ul class="submenu dropdown-menu  dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="maths_shs1.html">Mathematics</a></li>
+                        <li><a class="dropdown-item" href="science_shs1.html">Science</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="#">SHS-2 &raquo;</a>
+                      <ul class="submenu dropdown-menu  dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="maths_shs2.html">Mathematics</a></li>
+                        <li><a class="dropdown-item" href="science_shs2.html">Science</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="#">SHS-3 &raquo;</a>
+                      <ul class="submenu dropdown-menu  dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="maths_shs3.html">Mathematics</a></li>
+                        <li><a class="dropdown-item" href="science_shs3.html">Science</a></li>
+                      </ul>
+                    </li> 
+                  </ul>                
+                </li>
+                <li><a class="dropdown-item" href="index-jhs.html">JHS &raquo;</a>
+                  <ul class="submenu dropdown-menu  dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">JHS-1 &raquo;</a>
+                      <ul class="submenu dropdown-menu  dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="maths_jhs1.html">Mathematics</a></li>
+                        <li><a class="dropdown-item" href="science_jhs1.html">Science</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="#">JHS-2 &raquo;</a>
+                      <ul class="submenu dropdown-menu  dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="maths_jhs2.html">Mathematics</a></li>
+                        <li><a class="dropdown-item" href="science_jhs2.html">Science</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="#">JHS-3 &raquo;</a>
+                      <ul class="submenu dropdown-menu  dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="maths_jhs3.html">Mathematics</a></li>
+                        <li><a class="dropdown-item" href="science_jhs3.html">Science</a></li>
+                      </ul>
+                    </li> 
+                  </ul>                  
+                </li>
+              </ul>
             </li>
+            
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Books
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul class="dropdown-menu dropdown-menu-dark listsize" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Solid Foundation Core Mathematics For Senior High School Form Three
                   Students, Volumes 1, 2 and 3</a></li>
                 <li><a class="dropdown-item" href="#"> Solid Foundation Core Mathematics For Senior High School Form Two
@@ -223,7 +270,7 @@
             <section id="notice" class="p-5 bg-dark text-light">
               <div class="container">               
                 <h2 class="text-center fond">Notification To All Students</h2>
-                  <p class="lead text-center text-white mb-3">
+                  <p class="lead text-center text-white mb-3 answer">
                     <p >Mathematics and Science are important subjects which demands a good understanding,
                       a good systematical reasoning as well as a good logical reasoning.
                        As has been the normal trend, recent examination released by local examination bodies indicate
@@ -237,7 +284,7 @@
                           to make use of it, even in the absence of a tutor. Apart from that, tutors can depend on it in order to 
                           enhance their teaching performance or capabilities.</p><br/>
                       
-                       <p>Notice must also be taken of the fact that it is a very bad practice to study a subjec without
+                       <p>Notice must also be taken of the fact that it is a very bad practice to study a subject without
                         understanding it, and the end result of this can be very disappointing. One must also take note of
                          the fact that the poor performance of many students in the subject, may sometimes be due to the way
                           and manner in which they were handled by their tutors. </p><br/>
@@ -522,14 +569,9 @@
             <a href="index-jhs.html" class="text-reset">JHS</a>
           </p>
           <p>
-            <a href="index.html" class="text-reset">SHS-1</a>
+            <a href="index-shs.html" class="text-reset">SHS</a>
           </p>
-          <p>
-            <a href="index.html" class="text-reset">SHS-2</a>
-          </p>
-          <p>
-            <a href="index.html" class="text-reset">SHS-3</a>
-          </p>
+         
         </div>
         <!-- Grid column -->
 
@@ -548,7 +590,7 @@
           <p><i class="fas fa-phone me-3"></i> +233 244 64 62 14</p>
         </div>
         <!-- Grid column --> 
-      </div>0
+      </div>
       <!-- Grid row -->
     </div>
   </section>
@@ -583,6 +625,11 @@
      </script>
   </div>
   <!-- Copyright -->
+
+  <!--script for project menu-->
+    <script src="script-project.js"></script>
+
+   <!--script for project menu end-->
 
    
 

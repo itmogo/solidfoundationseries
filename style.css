@@ -194,7 +194,7 @@ h5:hover {
   position: absolute;
 }
 .listsize {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 /* tutorial heading*/
@@ -210,54 +210,12 @@ h2 > .shadow {
   box-shadow: 0 5px 10px 0px #fff;
 }
 
-/*pojects menu css*/
-.submenu li a:hover {
-  color: aqua;
-}
-.submenu li a {
-  padding-left: 20px;
-}
-
-.submenu ul li {
-  position: relative;
-  float: left;
-  margin-left: 10px;
-}
-ul {
-  list-style: none;
-}
-ul li:hover > ul {
-  transform: scaleY(1);
-  /* padding-bottom:10px */
-}
-ul ul ul {
-  margin-left: 12px;
-  top: 0;
-}
-
-ul ul {
-  position: absolute;
-  top: 0px;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  padding-right: 20px;
-
-  transform: scaleY(0);
-  transform-origin: 5;
-  transition: 0.6s ease;
-}
-
-.dropshs {
-  margin-bottom: 5px;
-}
-
-/* ul .submenu{
-    margin-top: 1px;
-  } */
+  */
 /* frequently asked questions*/
+p,
 .answer {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
 }
 /*JHS STYLE SHEETS*/
 .jhs_body {
@@ -276,11 +234,43 @@ ul ul {
   max-height: 59vh;
 }
 
- /* ul .padown {
-  padding-top: 5px;
-  padding-right: 60px;
-    
+/* new about - project menu*/
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  .dropdown-menu li {
+    position: relative;
+  }
+  .nav-item .submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+  }
+  .nav-item .submenu-left {
+    right: 100%;
+    left: auto;
+  }
+  .dropdown-menu > li:hover {
+    background-color: #1b206e;
+  }
+  .dropdown-menu > li:hover > .submenu {
+    display: block;
+  }
 }
-   */
+/* ============ desktop view .end// ============ */
 
-
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+  .nav-item .submenu {
+    display: none;
+    position: absolute;
+    left: 50%;
+  }
+  .dropdown-menu > li:hover {
+    background-color: #1b206e;
+  }
+  .dropdown-menu > li:hover > .submenu {
+    display: block;
+  }
+}
+/* ============ small devices .end// ============ */
