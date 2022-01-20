@@ -4,12 +4,13 @@ body {
 }
 
 .navhome > li {
-  padding-right: 50px;
-  margin-left: 0px;
+     padding-right: 50px; 
+     margin-left: 0px;
+ 
 }
 
 .navul {
-  margin-left: 80px;
+  margin-left: 340px;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -274,3 +275,7 @@ p,
   }
 }
 /* ============ small devices .end// ============ */
+
+.floaend{
+  float: end;
+}
