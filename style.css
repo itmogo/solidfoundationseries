@@ -4,12 +4,16 @@ body {
 }
 
 .navhome > li {
-     padding-right: 50px; 
-     margin-left: 0px; 
+  padding-right: 40px;
+  margin-left: 0px;
+  margin-right: 23px; 
 }
 .navul {
-  margin-left: 340px;
+  margin-left: 300px;
 }
+/* .navul > li{
+  margin-right: -10px;
+} */
 
 /*media query o f nav*/
 
@@ -18,6 +22,7 @@ body {
   transition: transform 0.7s;
   width: 100%;
   margin-right: 50px;
+  
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 #00000033;
@@ -212,7 +217,7 @@ h2 > .shadow {
   box-shadow: 0 5px 10px 0px #fff;
 }
 
-  */
+*/
 /* frequently asked questions*/
 p,
 .answer {
@@ -277,18 +282,18 @@ p,
 }
 /* ============ small devices .end// ============ */
 
-.floaend{
+.floaend {
   float: end;
 }
 
 /* mdeia query of nav */
 
-@media (max-width: 991px){
+@media (max-width: 991px) {
   .navhome > li {
-    padding-right: 10px; 
-    margin-left: 0px; 
-}
-.navul {
- margin-left: 30px;
-}
+    padding-right: 10px;
+    margin-left: 0px;
+  }
+  .navul {
+    margin-left: 30px;
+  }
 }
