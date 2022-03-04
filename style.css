@@ -14,9 +14,12 @@ body {
 /* .navul > li{
   margin-right: -10px;
 } */
-
+.navul > ul >li > a:hover {  
+  border-bottom: 1px solid rgb(253, 143, 17);
+  
+  background-color: rgb(95, 94, 94);
+}
 /*media query o f nav*/
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: transform 0.7s;
