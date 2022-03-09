@@ -6,7 +6,7 @@ body {
 .navhome > li {
   padding-right: 40px;
   margin-left: 0px;
-  margin-right: 23px; 
+  margin-right: 23px;
 }
 .navul {
   margin-left: 300px;
@@ -14,10 +14,11 @@ body {
 /* .navul > li{
   margin-right: -10px;
 } */
-.navul > ul >li > a:hover {  
+.navul > ul > li > a:hover {
   border-bottom: 1px solid rgb(253, 143, 17);
-  
   background-color: rgb(95, 94, 94);
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
 }
 /*media query o f nav*/
 .card {
@@ -25,7 +26,6 @@ body {
   transition: transform 0.7s;
   width: 100%;
   margin-right: 50px;
-  
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 #00000033;
@@ -222,10 +222,10 @@ h2 > .shadow {
 
 */
 /* frequently asked questions*/
-p,
-.answer {
-  text-decoration: none;
-  font-size: 15px;
+
+ p .answer {
+  /* text-decoration: none; */
+  font-size: 20px;
 }
 /*JHS STYLE SHEETS*/
 .jhs_body {
@@ -301,34 +301,35 @@ p,
   }
 }
 
-
 /*slide cards - slideanim*/
 
-.slideanim {visibility:visible;}
-  .slide {
-    animation-name: slide;
-    -webkit-animation-name: slide;
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
-    visibility: visible;
+.slideanim {
+  visibility: visible;
+}
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
   }
-  @keyframes slide {
-    0% {
-      opacity: 0;
-      transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
   }
-  @-webkit-keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
   }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
