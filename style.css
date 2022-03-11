@@ -4,19 +4,21 @@ body {
 }
 
 .navhome > li {
-  padding-right: 40px;
-  margin-left: 0px;
-  margin-right: 23px;
-}
+  /* padding-right: 10px;  */
+ margin-left: 30px;
+  padding-right: 20px;
+  }
 .navul {
-  margin-left: 300px;
-}
-/* .navul > li{
-  margin-right: -10px;
-} */
+  margin-left: 100px;  
+} 
+ /* .navul > li{
+  margin-left: -200px;
+}   */
 .navul > ul > li > a:hover {
   border-bottom: 1px solid rgb(253, 143, 17);
-  background-color: rgb(95, 94, 94);
+  /* background-color: rgb(95, 94, 94); */
+  background-color: rgba(109, 120, 124, 0.76);
+
   /* padding-top: 10px;
   padding-bottom: 10px; */
 }
@@ -99,7 +101,6 @@ marquee > p {
 .sectLinks {
   padding-top: 10px;
 }
-
 /*media query*/
 
 /* shs 1 css*/
@@ -333,3 +334,21 @@ h2 > .shadow {
     -webkit-transform: translateY(0%);
   }
 }
+/*card for maths 3*/
+/* @media screen and (max-width: 576px) {
+   .card {
+    width: 92%;
+  }
+}
+@media screen and (max-width: 786px) {
+  .card {
+    width: 92%;
+  }
+}
+@media screen and (min-width: 989px) {
+
+  ul li .navbar{
+    left:50%;
+    margin-right:none;
+  }
+} */
