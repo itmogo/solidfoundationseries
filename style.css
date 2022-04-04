@@ -1,0 +1,355 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navhome > li {
+  /* padding-right: 10px;  */
+  margin-left: 30px;
+  padding-right: 20px;
+}
+.navul {
+  margin-left: 100px;
+}
+/* .navul > li{
+  margin-left: -200px;
+}   */
+.navul > ul > li > a:hover {
+  border-bottom: 1px solid rgb(253, 143, 17);
+
+  background-color: rgba(109, 120, 124, 0.76);
+}
+
+/*media query o f nav*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.7s;
+  width: 100%;
+  margin-right: 50px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 #00000033;
+  -ms-transform: scale(0.95); /* IE 9 */
+  -webkit-transform: scale(0.95); /* Safari 3-8 */
+  transform: scale(0.95);
+}
+.card-body > p {
+  font-size: small;
+}
+.card > img {
+  height: 30vh;
+}
+.card-footer {
+  text-align: center;
+}
+h6 {
+  font-size: smaller;
+}
+
+.banner > p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: larger;
+}
+marquee > p {
+  margin-top: 10px;
+  color: white;
+}
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 0px 0px;
+}
+.bmain {
+  text-align: center;
+  margin-bottom: 40px;
+  border: 1px solid black;
+  position: sticky;
+  z-index: 1;
+  top: 1px;
+  width: 100%;
+}
+
+.card-body {
+  text-align: center;
+}
+
+/*back to top button*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: pink;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: rgb(253, 143, 17);
+}
+
+.sectLinks {
+  padding-top: 10px;
+}
+/*media query*/
+
+/* shs 1 css*/
+
+/*About us*/
+.about-us {
+  text-align: center;
+  border: #00000033;
+}
+h3 {
+  text-align: center;
+}
+
+h3 > p {
+  text-align: justify;
+}
+
+.sect {
+  box-shadow: 0 2px 8px 0 #00000033;
+  -ms-transform: scale(0.95); /* IE 9 */
+  -webkit-transform: scale(0.95); /* Safari 3-8 */
+  transform: scale(0.95);
+}
+.preface {
+  text-align: center;
+  border: rgb(40, 124, 58);
+}
+
+body {
+  background-color: #f9f9f9;
+  font-family: Noto Sansi;
+  color: #636363;
+  text-align: justify;
+}
+
+h3 {
+  /* margin-top: -18px; */
+  text-transform: uppercase;
+}
+
+/*amount*/
+.card-footer {
+  color: rgb(28, 14, 155);
+}
+
+h6 {
+  color: rgb(245, 219, 132);
+  text-transform: uppercase;
+  font-size: small;
+}
+
+h6:hover {
+  color: rgb(5, 2, 22);
+  font-size: smaller;
+}
+.gold .contact {
+  color: rgb(245, 219, 132);
+}
+.fond {
+  color: rgb(245, 219, 132);
+}
+.for > h5 {
+  color: navy;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 0 5px 0px 0px #0757ec2a;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+h5:hover {
+  font-size: small;
+  color: rgb(32, 60, 218);
+}
+.tuthead {
+  font-size: large;
+  font-weight: bold;
+}
+
+.contact {
+  text-align: center;
+  font-size: large;
+  margin-top: 50px;
+  text-transform: uppercase;
+  color: rgb(72, 72, 161);
+}
+.form {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-size: small;
+}
+.frame {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.overlay {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 900px;
+  z-index: -10;
+  position: absolute;
+}
+.listsize {
+  font-size: 13px;
+}
+
+/* tutorial heading*/
+/*  */
+
+/*tutorial heading*/
+
+p {
+  font-size: small;
+}
+
+h2 > .shadow {
+  box-shadow: 0 5px 10px 0px #fff;
+}
+
+*/
+/* frequently asked questions*/
+
+ p .answer {
+  /* text-decoration: none; */
+  font-size: 20px;
+}
+/*JHS STYLE SHEETS*/
+.jhs_body {
+  background: rgb(78, 77, 78);
+}
+
+.label {
+  font-size: small;
+}
+
+.pcolor {
+  color: gray;
+}
+
+.carousel-inner {
+  max-height: 55vh;
+}
+
+/* new about - project menu*/
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  .dropdown-menu li {
+    position: relative;
+  }
+  .nav-item .submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+  }
+  .nav-item .submenu-left {
+    right: 100%;
+    left: auto;
+  }
+  .dropdown-menu > li:hover {
+    background-color: #1b206e;
+  }
+  .dropdown-menu > li:hover > .submenu {
+    display: block;
+  }
+}
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+  .nav-item .submenu {
+    display: none;
+    position: absolute;
+    left: 50%;
+  }
+  .dropdown-menu > li:hover {
+    background-color: #1b206e;
+  }
+  .dropdown-menu > li:hover > .submenu {
+    display: block;
+  }
+}
+/* ============ small devices .end// ============ */
+
+.floaend {
+  float: end;
+}
+
+/* mdeia query of nav */
+
+@media (max-width: 991px) {
+  .navhome > li {
+    padding-right: 10px;
+    margin-left: 0px;
+  }
+  .navul {
+    margin-left: 30px;
+  }
+}
+
+/*slide cards - slideanim*/
+
+.slideanim {
+  visibility: visible;
+}
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+/*card for maths 3*/
+/* @media screen and (max-width: 576px) {
+   .card {
+    width: 92%;
+  }
+}
+@media screen and (max-width: 786px) {
+  .card {
+    width: 92%;
+  }
+}
+@media screen and (min-width: 989px) {
+
+  ul li .navbar{
+    left:50%;
+    margin-right:none;
+  }
+} */
+
+/* fas  */
+
