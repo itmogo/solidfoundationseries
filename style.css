@@ -16,7 +16,6 @@ body {
 }   */
 .navul > ul > li > a:hover {
   border-bottom: 1px solid rgb(253, 143, 17);
-
   background-color: rgba(109, 120, 124, 0.76);
 }
 
@@ -332,24 +331,5 @@ h2 > .shadow {
     -webkit-transform: translateY(0%);
   }
 }
-/*card for maths 3*/
-/* @media screen and (max-width: 576px) {
-   .card {
-    width: 92%;
-  }
-}
-@media screen and (max-width: 786px) {
-  .card {
-    width: 92%;
-  }
-}
-@media screen and (min-width: 989px) {
 
-  ul li .navbar{
-    left:50%;
-    margin-right:none;
-  }
-} */
-
-/* fas  */
 
