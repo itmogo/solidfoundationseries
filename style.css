@@ -331,3 +331,13 @@ h2 > .shadow {
     -webkit-transform: translateY(0%);
   }
 }
+
+.red{
+  color: red;
+  font-style: italic;
+}
+
+.red:hover{
+  color: black;
+  
+}
